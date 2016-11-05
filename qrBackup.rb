@@ -7,7 +7,7 @@
 # gpg api
 require 'gpgme'
 
-# generats pdfs
+# generates pdfs
 require 'prawn'
 
 require 'tmpdir'
