@@ -2,10 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
+    gpgme (2.0.12)
+      mini_portile2 (~> 2.1.0)
     method_source (0.8.2)
-    narray (0.6.0.9)
-    number-theory (0.0.2)
-      narray (>= 0.6)
+    mini_portile2 (2.1.0)
+    pdf-core (0.6.1)
+    prawn (2.1.0)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -14,12 +18,17 @@ GEM
       pry (~> 0.9)
       yard (~> 0.8)
     slop (3.6.0)
+    ttfunk (1.4.0)
     yard (0.8.7.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  number-theory
+  gpgme
+  prawn
   pry
   pry-doc
+
+BUNDLED WITH
+   1.11.2
